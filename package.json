@@ -1,0 +1,20 @@
+{
+  "name": "hackernews-scrapper",
+  "version": "0.0.1",
+  "description": "Hacker news scrapper",
+  "main": "hakernews.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "author": "Gene Ponomarenko",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "latest",
+    "jsonschema": "^1.1.0",
+    "request": "latest",
+    "yargs": "latest"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
