@@ -5,7 +5,7 @@ RUN mkdir -p /opt/hackernews
 WORKDIR /opt/hackernews
 
 # Copy necessary project files
-COPY package.json hakernews.js scrapper.js /opt/hackernews/
+COPY package.json hakernews.js scraper.js /opt/hackernews/
 
 # Install dependencies
 RUN npm install

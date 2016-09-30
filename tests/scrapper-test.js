@@ -2,7 +2,7 @@
 const chai = require('chai'),
     expect = chai.expect;
 
-const getPosts = require('../scrapper');
+const getPosts = require('../scraper');
 
 describe('getPosts', () => {
     it('should return determined quantity of valid posts', (done) => {

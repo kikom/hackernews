@@ -1,4 +1,4 @@
-# Hacker news scrapper
+# Hacker news scraper
 
 Little script that parses haker news site and forms list of posts with necessary data in JSON format.
 

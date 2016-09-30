@@ -1,5 +1,5 @@
 /**
- * hackernews.js - Initial endpoint of scrapper
+ * hackernews.js - Initial endpoint of scraper
  *
  * @author Gene Ponomarenko <kikomdev@gmail.com>
  */
@@ -7,7 +7,7 @@
 'use strict';
 
 const yargs = require('yargs'),
-    getPosts = require('./scrapper');
+    getPosts = require('./scraper');
 
 //Get --posts argument and check it
 const postsQty = yargs.argv.posts;

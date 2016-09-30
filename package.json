@@ -1,7 +1,7 @@
 {
-  "name": "hackernews-scrapper",
+  "name": "hackernews-scraper",
   "version": "0.0.1",
-  "description": "Hacker news scrapper",
+  "description": "Hacker news scraper",
   "main": "hakernews.js",
   "scripts": {
     "test": "mocha tests --recursive"
